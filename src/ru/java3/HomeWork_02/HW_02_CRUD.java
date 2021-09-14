@@ -2,7 +2,7 @@ package ru.java3.HomeWork_02;
 
 import java.sql.*;
 
-public class HW_02 {
+public class HW_02_CRUD {
 
     private static Connection connection;
     private static Statement stmt;
