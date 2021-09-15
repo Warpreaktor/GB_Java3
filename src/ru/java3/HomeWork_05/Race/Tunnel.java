@@ -1,4 +1,4 @@
-package ru.java3.HomeWork_05;
+package ru.java3.HomeWork_05.Race;
 
 import java.util.concurrent.Semaphore;
 

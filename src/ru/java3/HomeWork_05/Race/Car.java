@@ -1,10 +1,9 @@
-package ru.java3.HomeWork_05;
+package ru.java3.HomeWork_05.Race;
 
 import java.util.Random;
-import java.util.concurrent.CountDownLatch;
 
-import static ru.java3.HomeWork_05.HW_05.finishCounter;
-import static ru.java3.HomeWork_05.HW_05.readyCounter;
+import static ru.java3.HomeWork_05.Race.HW_05.finishCounter;
+import static ru.java3.HomeWork_05.Race.HW_05.readyCounter;
 
 public class Car implements Runnable {
     public static final String ANSI_RESET = "\u001B[0m";

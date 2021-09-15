@@ -1,8 +1,4 @@
-package ru.java3.HomeWork_05;
-
-import java.util.concurrent.CountDownLatch;
-
-import static ru.java3.HomeWork_05.HW_05.CARS_COUNT;
+package ru.java3.HomeWork_05.Race;
 
 public class Road extends Stage {
     private String name;

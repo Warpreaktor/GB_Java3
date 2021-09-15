@@ -1,4 +1,4 @@
-package ru.java3.HomeWork_05;
+package ru.java3.HomeWork_05.Race;
 
 public abstract class Stage {
     protected int length;
