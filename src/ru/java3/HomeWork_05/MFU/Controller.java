@@ -2,6 +2,8 @@ package ru.java3.HomeWork_05.MFU;
 
 
 import java.io.InputStream;
+import java.util.Iterator;
+import java.util.ListIterator;
 import java.util.Vector;
 
 public class Controller {
@@ -14,6 +16,9 @@ public class Controller {
         printer.toPrintQueue(document);
         printer.print();
         copier.copy("O:\\Develop\\GB_Java3\\src\\ru\\java3\\HomeWork_05\\MFU\\documents\\док2.txt");
+
+        ListIterator itr = document.listIterator();
+
     }
 
 }
